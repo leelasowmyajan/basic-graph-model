@@ -32,7 +32,7 @@ The goal of this project is to model and manipulate graph data by creating nodes
 ## Running the Project
 
 To run the graph model, you need:
-1. **Neo4j**  and **APOC** plugin installed.
+1. **Neo4j**  and **APOC-plugin** installed.
 2. Load the provided Cypher scripts into the Neo4j browser.
 3. Test the model with the provided queries.
 
