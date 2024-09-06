@@ -26,4 +26,4 @@ A new use case has emerged:
 
 - **Use case #4** - Who wrote a specific book?
 
-To address this, we introduce a new entity: **Author** to capture this additional information.
+To address this, we need to introduce a new entity: **Author** to capture this additional information.
