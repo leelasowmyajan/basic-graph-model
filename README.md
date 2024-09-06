@@ -2,6 +2,8 @@
 
 This project demonstrates the fundamentals of **Graph Data Modeling** using Neo4j and Cypher, focused on building a **Library Graph** that represents authors, books, publishers, and related entities.
 
+![Project Screenshot](library-graph-model.png)
+
 ## Project Overview
 
 The goal of this project is to model and manipulate graph data by creating nodes, relationships, and implementing refactoring techniques. Key steps include:
