@@ -4,7 +4,7 @@ A new use case has emerged:
 
 - **Use case #6** - What books are available in a particular language?
 
-The query for this use case retrieves all `Book` nodes and checks if the `languages` property contains, for example, 'Spanish'. However, there are two main issues with this approach, especially as the graph scales:
+In the current model, the query for this use case retrieves all `Book` nodes and checks if the `languages` property contains, for example, 'Spanish'. However, there are two main issues with this approach, especially as the graph scales:
 
 1. The name of the language is duplicated in many `Book` nodes.
 2. The query must retrieve all `Book` nodes, which is inefficient for large graphs.
