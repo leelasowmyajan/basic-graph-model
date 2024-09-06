@@ -24,11 +24,12 @@ The goal of this project is to model and manipulate graph data by creating nodes
 
 ## Key Concepts
 
-- **Node Types**: `Author`, `Book`, `Reader`, `Publisher`, `Staff`.
+- **Node Types**: `Author`, `Book`, `Reader`, `Staff`, `Language`, `Publisher`.
 - **Relationships**:
   - `BORROWED`: Between `Reader` and `Book`.
   - `LENT`: Between `Staff` and `Book`.
   - `WROTE`: Between `Author` and `Book`.
+  - `IN_LANGUAGE`: Between `Book` and `Language`.
   - `PUBLISHED`: Between `Book` and `Publisher`.
 
 ## Running the Project
