@@ -1,4 +1,4 @@
-Step 1 - Creating BORROWED and LENT relationships
+//Step 1 - Creating BORROWED and LENT relationships
 
 //Matching readers
 MATCH (emily:Person {name: 'Emily Clark'})
@@ -69,7 +69,7 @@ MERGE (ethan)-[:LENT {lendDate: '2024-08-01', dueDate: '2024-08-15', transaction
 MERGE (sophia)-[:BORROWED {borrowDate: '2024-08-01', returnDate: '2024-08-15', actualReturnDate: '2024-08-14', lateFees: 0, transactionID: 'TXN007'}]->(moby)
 MERGE (sophia)-[:BORROWED {borrowDate: '2024-08-01', returnDate: '2024-08-15', actualReturnDate: '2024-08-14', lateFees: 0, transactionID: 'TXN007'}]->(davinci)
 
-Step 2 - Creating WROTE relationship
+//Step 2 - Creating WROTE relationship
 
 //Matching books
 MATCH (sharp:Book {title: 'Sharp Objects'})
